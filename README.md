@@ -12,7 +12,7 @@ This mathematical vastness creates the central paradox that makes the puzzle so 
 
 Despite its 43 quintillion permutations, mathematicians and software engineers have proven a concept known as "God’s Number"—the awe-inspiring revelation that every single scrambled state, no matter how tangled, is no more than 20 moves away from being perfectly solved. Fifty years after its creation, the Rubik’s Cube remains the ultimate monument to human curiosity. It is a physical manifestation of chaos and order, continually challenging us to look at a mess of fractured colors and believe that, through patience and intellect, we can put things right again.
 
-This repo contains the solver for a standard 3x3 cube and also a 2x2 pocket cube.
+This repo contains the solver for a standard [3x3](https://github.com/santakd/rubikscube/blob/main/rubiks3x3.py) cube and also a [2x2](https://github.com/santakd/rubikscube/blob/main/rubiks2x2.py) pocket cube.
 
 Herbert Kociemba’s algorithm is absolutely fascinating. It is the gold standard for software-based Rubik’s Cube solvers and is the mathematical backbone that proved **"God's Number"** (the maximum number of moves required to solve *any* Rubik's Cube state is 20).
 
