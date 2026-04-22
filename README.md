@@ -2,6 +2,7 @@
 
 ![Rubik's Cube](https://github.com/santakd/rubikscube/blob/main/rubikscube.gif)
 
+
 At first glance, the Rubik’s Cube is deceptively simple—a colorful, plastic cube that fits neatly in the palm of your hand. Yet, beneath its six brightly colored faces lies a labyrinth of mathematical complexity that has captivated millions. Invented in 1974 by Ernő Rubik, a Hungarian architecture professor, the "Magic Cube" wasn’t originally designed as a toy. It was created as a tactile teaching tool to help his students understand three-dimensional geometry and the movement of independent parts. In fact, when Rubik scrambled his own invention for the first time, it took him a full month to figure out how to put it back together.
 
 The genius of the puzzle lies in its brilliant physical architecture. While it appears to be a solid block of 54 colored squares, it is actually composed of 26 smaller cubes—known as "cubies"—interlocking tightly around a hidden, six-pronged central pivot. This ingenious core allows any given face to rotate smoothly without the entire structure collapsing. The pieces are strictly categorized into centers (which dictate the final color of the face and never move relative to one another), edges (with two colors), and corners (with three colors). When you turn the cube, you aren't just moving flat stickers; you are navigating solid, three-dimensional geometric pieces through space.
@@ -13,6 +14,14 @@ This mathematical vastness creates the central paradox that makes the puzzle so 
 Despite its 43 quintillion permutations, mathematicians and software engineers have proven a concept known as "God’s Number"—the awe-inspiring revelation that every single scrambled state, no matter how tangled, is no more than 20 moves away from being perfectly solved. Fifty years after its creation, the Rubik’s Cube remains the ultimate monument to human curiosity. It is a physical manifestation of chaos and order, continually challenging us to look at a mess of fractured colors and believe that, through patience and intellect, we can put things right again.
 
 This repo contains the solver for a standard [3x3](https://github.com/santakd/rubikscube/blob/main/rubiks3x3.py) cube and also a [2x2](https://github.com/santakd/rubikscube/blob/main/rubiks2x2.py) pocket cube.
+
+### ⭐ Like it? Star it!
+
+If you find this project interesting, please give it a star — it helps others discover it too.
+
+---
+
+### The Kociemba Algorithm
 
 Herbert Kociemba’s algorithm is absolutely fascinating. It is the gold standard for software-based Rubik’s Cube solvers and is the mathematical backbone that proved **"God's Number"** (the maximum number of moves required to solve *any* Rubik's Cube state is 20).
 
