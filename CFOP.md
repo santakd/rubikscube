@@ -3,6 +3,9 @@
 If you're a speed cuber chasing that next personal best, mastering CFOP is the ultimate game-changer. Short for Cross, F2L, OLL, and PLL, this method powers most of the world's top solvers — and with the right tweaks, it can slash precious seconds from your times.
 In this guide, we'll break down each stage with fresh tips, common pitfalls to avoid, and pro-level strategies to level up your game. Whether you're stuck in the 30-second range or pushing for sub-15, these insights will help you build smoother, faster solves. Let's dive in and turn your cube into a blur!
 
+![CFOP](https://github.com/santakd/rubikscube/blob/main/CFOP.png)
+
+
 #### 1. Nail the Cross – Build a Rock-Solid Foundation
 The Cross isn't just the opening move — it's the launchpad for your entire solve. A clean, efficient Cross sets up effortless F2L pairs and minimizes rotations later. Aim to solve it in 5–8 moves max during inspection.
 
