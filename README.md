@@ -104,4 +104,5 @@ When the thread finishes, Kociemba returns a single string like:
 
 The `KociembaBridge` splits this by spaces into a Python list of strings. We pass this list to the `SolutionPlayer`. When you click **[Next]**, the app grabs the current move from the list (e.g., `U'`) and passes it to the `MoveExecutor`, which mathematically rotates our 3D NumPy arrays to match reality, while the UI flashes the blue translucent highlight over the affected stickers!
 
+Learn more about solving the cube by using the [CFOP](https://github.com/santakd/rubikscube/blob/main/CFOP.md) method.
 ---
