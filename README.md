@@ -3,7 +3,6 @@
 ![Rubik's Cube](https://github.com/santakd/rubikscube/blob/main/rubikscube.gif)
 
 
-
 At first glance, the Rubik’s Cube is deceptively simple—a colorful, plastic cube that fits neatly in the palm of your hand. Yet, beneath its six brightly colored faces lies a labyrinth of mathematical complexity that has captivated millions. Invented in 1974 by Ernő Rubik, a Hungarian architecture professor, the "Magic Cube" wasn’t originally designed as a toy. It was created as a tactile teaching tool to help his students understand three-dimensional geometry and the movement of independent parts. In fact, when Rubik scrambled his own invention for the first time, it took him a full month to figure out how to put it back together.
 
 The genius of the puzzle lies in its brilliant physical architecture. While it appears to be a solid block of 54 colored squares, it is actually composed of 26 smaller cubes—known as "cubies"—interlocking tightly around a hidden, six-pronged central pivot. This ingenious core allows any given face to rotate smoothly without the entire structure collapsing. The pieces are strictly categorized into centers (which dictate the final color of the face and never move relative to one another), edges (with two colors), and corners (with three colors). When you turn the cube, you aren't just moving flat stickers; you are navigating solid, three-dimensional geometric pieces through space.
@@ -104,5 +103,6 @@ When the thread finishes, Kociemba returns a single string like:
 
 The `KociembaBridge` splits this by spaces into a Python list of strings. We pass this list to the `SolutionPlayer`. When you click **[Next]**, the app grabs the current move from the list (e.g., `U'`) and passes it to the `MoveExecutor`, which mathematically rotates our 3D NumPy arrays to match reality, while the UI flashes the blue translucent highlight over the affected stickers!
 
-Learn more about solving the cube by using the [CFOP](https://github.com/santakd/rubikscube/blob/main/CFOP.md) method.
+
+#### Learn more about solving the cube by using the [CFOP](https://github.com/santakd/rubikscube/blob/main/CFOP.md) method.
 ---
