@@ -1,3 +1,16 @@
+#   __.-._
+#   '-._"7'
+#    /'.-c
+#    |  //
+#   _)_/||
+#
+# rubiks2x2.py - 2x2 Rubik's Cube 3-D Solver with detailed logging.
+# Author: santakd
+# Contact: santakd at gmail dot com
+# Date: April 22, 2026
+# Version: 1.0.8
+# License: MIT License 
+#
 # ========================================================================
 # 2x2 Rubik's Cube Solver — Installation & Run Instructions
 # ========================================================================
