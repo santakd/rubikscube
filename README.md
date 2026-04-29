@@ -5,7 +5,7 @@
 
 At first glance, the Rubik’s Cube is deceptively simple—a colorful, plastic cube that fits neatly in the palm of your hand. Yet, beneath its six brightly colored faces lies a labyrinth of mathematical complexity that has captivated millions. Invented in 1974 by Ernő Rubik, a Hungarian architecture professor, the "Magic Cube" wasn’t originally designed as a toy. It was created as a tactile teaching tool to help his students understand three-dimensional geometry and the movement of independent parts. In fact, when Rubik scrambled his own invention for the first time, it took him a full month to figure out how to put it back together. The genius of the puzzle lies in its brilliant physical architecture. While it appears to be a solid block of 54 colored squares, it is actually composed of 26 smaller cubes—known as "cubies"—interlocking tightly around a hidden, six-pronged central pivot. This ingenious core allows any given face to rotate smoothly without the entire structure collapsing. The pieces are strictly categorized into centers (which dictate the final color of the face and never move relative to one another), edges (with two colors), and corners (with three colors). When you turn the cube, you aren't just moving flat stickers; you are navigating solid, three-dimensional geometric pieces through space.
 
-The true challenge of the Rubik’s Cube becomes apparent the moment you make your first few turns. Order instantly dissolves into chaotic entropy. Mathematically, a standard 3x3x3 Rubik’s Cube can be arranged into exactly 43,252,003,274,489,856,000 (over 43 quintillion) different configurations. To put that staggering number into perspective: if you had one standard-sized cube for every possible state and laid them end-to-end, the line would stretch across the entire observable universe. If you made one turn per second, trying to guess the solution, the sun would burn out long before you finished. You simply cannot stumble upon the solution by accident. The cube was built to symbolize symmetry, but it threw Rubik a curve: It was also a puzzle. Even a few twists made it difficult to return the small cubes to their starting positions. It was “surprising and deeply emotional,” Rubik tells Smithsonian, with “an inherent element of problem-solving that brought with it complexity, difficulty and experiential value". 
+The true challenge of the Rubik’s Cube becomes apparent the moment you make your first few turns. Order instantly dissolves into chaotic entropy. Mathematically, a standard 3x3x3 Rubik’s Cube can be arranged into exactly 43,252,003,274,489,856,000 (over 43 quintillion or 4.3 * 10^19) different configurations. To put that staggering number into perspective: if you had one standard-sized cube for every possible state and laid them end-to-end, the line would stretch across the entire observable universe. If you made one turn per second, trying to guess the solution, the sun would burn out long before you finished. You simply cannot stumble upon the solution by accident. The cube was built to symbolize symmetry, but it threw Rubik a curve: It was also a puzzle. Even a few twists made it difficult to return the small cubes to their starting positions. It was “surprising and deeply emotional,” Rubik tells Smithsonian, with “an inherent element of problem-solving that brought with it complexity, difficulty and experiential value". For a 2x2x2 pocket cube, there are 3,674,160 different configurations which is considerably less than the 3x3x3 cube's configurations. Due to the puzzle's structure, which lacks fixed center pieces, the number of legal positions is calculated by fixing one corner and calculating the permutations (7!) and orientations (3^6) of the remaining seven pieces. 
 
 This mathematical vastness creates the central paradox that makes the puzzle so utterly fascinating. It is a battle against chaos that cannot be won with brute force; it requires logic, spatial awareness, and algorithmic thinking. The cruelest trick of the Rubik's Cube is that to fix one piece, you must temporarily destroy the progress you have already made. Solving it demands foresight. You must execute precise sequences of moves—algorithms—that briefly dismantle your solved sections just to maneuver a single new piece into place, before perfectly reversing the sequence to restore order.
 
@@ -13,7 +13,7 @@ Why does a middle-aged plastic puzzle with one right combination and 43 quintill
 
 ### The Files
 
-This repo contains the solver for a standard [3x3](https://github.com/santakd/rubikscube/blob/main/rubiks3x3.py) cube and also a [2x2](https://github.com/santakd/rubikscube/blob/main/rubiks2x2.py) pocket cube.
+This repo contains the solver for a standard [3x3x3](https://github.com/santakd/rubikscube/blob/main/rubiks3x3.py) cube and also a [2x2x2](https://github.com/santakd/rubikscube/blob/main/rubiks2x2.py) pocket cube.
 
 ### ⭐ Like it? Star it!
 
@@ -99,10 +99,10 @@ When the thread finishes, Kociemba returns a single string like:
 
 The `KociembaBridge` splits this by spaces into a Python list of strings. We pass this list to the `SolutionPlayer`. When you click **[Next]**, the app grabs the current move from the list (e.g., `U'`) and passes it to the `MoveExecutor`, which mathematically rotates our 3D NumPy arrays to match reality, while the UI flashes the blue translucent highlight over the affected stickers!
 
----
 
 
 ### Learn more about solving the cube by using the [CFOP](https://github.com/santakd/rubikscube/blob/main/CFOP.md) method.
+
 
 ---
    
